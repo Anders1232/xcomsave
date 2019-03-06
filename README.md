@@ -8,8 +8,6 @@ completely parse yet. I don't have exhaustive save samples for most languages, b
 read and write English, German, and Russian saves. If you encounter errors reading or writing a save with another language
 please let me know.
 
-For Enemy Unknown saves, please see the fork by golinski: https://github.com/golinski/xcomsave. 
-
 ## JSON Utilities
 
 The xcom2json and json2xcom tools convert to and from a JSON representation of the save file. No real processing is done
@@ -51,3 +49,11 @@ Requires GCC (or Clang), libiconv, and GNU make. Tested on Debian 8.
 
 The C++ compilers bundled with Xcode as of version 9.2 are too old to build this project. A more recent build of GCC or Clang
 is required, for example from Homebrew.
+
+## Contributors
+
+- [tracktwo](github.com/tracktwo), who created it;
+- [shaygover](github.com/shaygover), who added install instructions;
+- [skywalkerytx](github.com/skywalkerytx), who fixed date problems;
+- [golinski](github.com/golinski), who made the Enemy Unknown version;
+- [Anders1232](github.com/Anders1232), who merged the Enemy Unknown version;
